@@ -1,0 +1,47 @@
+.craddiv{
+    height: 400px;
+    background-color: antiquewhite;
+    margin: 50px 10px;
+    transition: 0.5s;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* .cardoutside{
+    float: left;
+} */
+.craddiv:hover{
+    scale: 1.1;
+}
+.merse{
+    background-image: url('https://www.mercedes-benzsouthwest.co.uk/media/.renditions/wysiwyg/E-Class_body_2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -200px;
+}
+.craddiv p{
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 30px;
+    font-size: 40px;
+}
+.bmw{
+    background-image: url('https://mediapool.bmwgroup.com/cache/P9/202309/P90522951/P90522951-the-bmw-i5-edrive40-driving-10-2023-2247px.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -150px;
+}
+.ford{
+    background-image: url('https://hips.hearstapps.com/hmg-prod/images/2025-ford-explorer-st-110-65ba6d640cbb3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -170px;
+}
+.toyota{
+    background-image: url('https://www.topgear.com/sites/default/files/2024/03/1-Toyota-Land-Cruiser-review.jpg');
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -350px;
+}

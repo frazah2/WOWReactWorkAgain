@@ -1,0 +1,40 @@
+
+.menu {
+    width: 200px;
+    height: 100vh;
+    z-index: 2;
+    background-color: rgb(110, 188, 188);
+    transition: 0.5s;
+    position: fixed;
+    top: 0px;
+    /* right: 0px; */
+}
+
+.show {
+    right: 0px;
+}
+
+.hide {
+    right: -300px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 70px;
+
+}
+.menu ul li {
+    list-style-type: none;
+    padding: 15px;
+    font-size: 30px;
+    color: rgb(7, 41, 71);
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.menu ul li:hover {
+    background-color: rgb(35, 118, 148);
+    color: black;
+}
